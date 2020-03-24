@@ -1,0 +1,25 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    /* height: 100%; */
+}
+.form-div{
+    display: flex;
+    justify-content:center;
+    margin-top:50px;
+    /* align-content: center */
+
+}
+.design{
+    padding: 30px;
+    border-radius: 3%; 
+    color:black;
+    width: 50%;
+    background-color:white;
+    
+}
+.bg{
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,30 @@
+body {
+ background-image: url(bv.jpg); 
+background-size: cover; 
+ background-attachment: fixed; 
+/* background-color: black;
+color :white */
+}
+.form-div{
+    width: 50%;
+    margin: auto;
+    border-radius: 2px solid black;
+    padding: 20px;
+    padding-top: 50px;
+    opacity: 100%;
+    color:white; 
+}
+.bg{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    opacity:initial
+}
+.plain{
+    background-color:#B0F7A9;
+    height:300px;
+    width: 100%;
+}
+.margin{
+    margin-bottom:80px; 
+}

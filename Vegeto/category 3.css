@@ -1,0 +1,259 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color:whitesmoke ;
+    color: black
+}
+/* Header starts from here */
+.logo{
+    text-align: center;
+    background-color: #CA0303;
+    border-bottom: 3px solid white;
+}
+/* header ends here */
+ /* first-bar */
+ .first-bar{
+    display: flex;
+}
+
+/*categories started*/
+.category{ 
+    padding: 8px 10px;
+    /* border: 1px solid white; */
+    width: 25%;  
+    position: relative;
+    z-index: 1;
+    display:inline-block;
+}
+.category:hover .hide-div{
+    display: block;
+    margin-left : -19px;
+    width:110%;
+    
+}
+.hide-div{ 
+    display: none;
+    position: absolute;
+    padding: 8px;
+    width: 100%;  
+    /* border: 1px solid white; */
+  
+}
+
+.others-cate-sty{ 
+    padding: 10px 16px;
+    color: black;
+    background-color: whitesmoke
+}
+.others-cate-sty:hover{
+    border-bottom: 2px solid black
+}
+.others-cate-sty-mobile:hover{
+    color: #2AC5B3
+}
+.others-cate-sty-xbox:hover{
+    color: #10790F
+}
+.others-cate-sty-female:hover{
+    color: #FC46AA
+}
+.others-cate-sty-male:hover{
+    color: #00BEFE
+}
+.others-cate-sty-capsules:hover{
+    color: #FF0800
+}
+.others-cate-sty-futbol:hover{
+    color: #6D1BC8;
+}
+.others-cate-sty-appliances:hover{
+    color: #1B6BE5
+}
+.others-cate-sty-circle:hover{
+    color: #FFB532
+}
+/* categories ends */
+.search-bar-div{
+    /* border: none; */
+    /* border: 1px solid white; */
+    font-size: 19px;
+    height: 63px;
+    /* background-color: white; */
+    outline: none;
+    }
+.search-bar{
+    height: 55px;
+    width: 70%;
+    border: none;
+    padding:0px 0px 0px 30px;
+    margin: 0px 0px 0px -15px;
+    }
+.search-bar-button{
+    width: 30%;
+    height: 55px;
+    font-size: 19px;
+    background-color: gray;
+    border: 1px solid transparent;
+    margin: -6px
+    }
+.search-bar:focus{
+    outline: none
+}
+
+.search-bar-button:hover{ 
+    outline : none;
+    color: white;
+    background-color: #CA0303
+    
+}
+.search-bar-button:focus{ 
+    outline : none;
+}
+.contact-us{
+    /* border:1px solid white; */
+    font-size: 19px;
+    text-align: center;
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
+.facebook:hover{
+    color: #3B5998
+}
+.twitter:hover{
+    color: #1C9DEB
+}
+.google:hover{
+    color: #DA1738
+}
+.github:hover{
+    color: orangered
+}
+.mobile-cover {
+    height: 280px;
+    background-image: url("./covers/Cover 1.jpeg");
+    background-size: cover;
+    /* background-repeat: no-repeat */
+    text-align:center;
+    padding: 35px 0px 0px 0px
+}
+.mobile-cover:hover{
+    box-shadow: 0px 0px 30px black;
+    border:2px solid black;
+}
+ .mobile-div{
+    display: flex
+} 
+.mob-div-start{
+    border: 1px solid black;
+    width: 200px;
+    /* height: 300px; */
+}
+.star{
+    color: #FCCD00;
+}
+/* .buy-now-button{
+    color: white;
+    background-color: #FCCD00; width: 65px;
+    height: 65px;
+    background-color: #241335;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    right: 70px;
+    bottom: 75px;
+    border: 1px solid white;
+    border: 1px solid #c69500;
+    width: 100%;
+    margin: 10px 0px 5px 0px;
+ } */
+    .mob-div-start{
+        border: 1px solid white;
+        width: 200px;
+        /* height: 300px; */
+    }
+.mobile-div1{
+     border-top:40px solid #6C2EBF ;
+     border-bottom: 2px solid black;
+     display: flex;
+     justify-content:center ;
+
+    }
+
+.star{
+    color: #FCCD00;
+}
+    .mob-div-start:hover{
+        border: 2px solid black;   
+        box-shadow: 1px 1px 8px black;
+    }
+    .buy-now-button{
+        visibility: hidden;
+        color: black;
+        background-color:orange;
+        width: 100%;
+        margin: 10px 0px 5px 0px;
+    }
+    .mob-div-start:hover .buy-now-button{
+        visibility: visible
+    }
+    .mob-div-start1:hover .buy-now-button{
+        visibility: visible
+    }
+    .mob-div-start1:hover{
+        border: 2px solid black;   
+        box-shadow: 1px 1px 8px black;
+    }
+    .mob-div-start1{
+        border: 1px solid white;
+        width: 200px;
+        padding-top: 50px;
+        /* height: 300px; */
+    }
+
+    .buy-now-button:hover{
+        background-color: #FCCD00 ;
+        border: 1px solid black;
+        color: white
+    }
+ .mobile-cover2 {
+    height: 280px;
+    background-image: url("./covers/Cover 2.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat */
+    text-align: center;
+    padding: 35px 0px 0px 0px
+}
+.mobile-cover2:hover{
+    box-shadow: 0px 0px 30px black;
+    border:2px solid black;
+}
+   .mobile-div2{
+    border-top:40px solid #6C2EBF ;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content:center ;
+
+   }
+
+   .mobile-cover3 {
+    height: 300px;
+    background-image: url("./covers/Cover 3.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat */
+    text-align: center;
+    padding: 35px 0px 0px 0px
+}
+.mobile-cover3:hover{
+      box-shadow: 0px 0px 30px blue;
+      border:2px solid white;
+}
+
+   .mobile-div3{
+    border-top:40px solid #6C2EBF ;
+    height:350px;
+    border-bottom: 2px solid black;
+    font:whitesmoke;
+    display: flex;
+    justify-content:center ;
+
+   }
+
